@@ -1,2 +1,2 @@
-- Trabajo practico con codigo de python
-Manuel Herraiz
+- Programa listas
+- Manuel Herraiz
