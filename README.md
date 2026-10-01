@@ -1,2 +1,1 @@
-- Programa listas
 - Manuel Herraiz
