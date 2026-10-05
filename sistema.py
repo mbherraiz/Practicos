@@ -1,14 +1,17 @@
-from util import Mostrar_menu
+from util import Buscar
 
-menu = [
-    "Comidas argentinas del menu",
-    "1 - Asado",
-    "2 - Empanadas",
-    "3 - Milanesa con papas fritas",
-    "4 - Locro",
-    "5 - Choripan"
+personas = [
+    "Ana", "Bruno", "Carla", "Diego", "Elena",
+    "Fabio", "Gabriela", "Hugo", "Ines", "Juan",
+    "Laura", "Marcos", "Natalia", "Oscar", "Paula",
+    "Ricardo", "Sofia", "Tomas", "Valeria", "Walter"
 ]
 
-seleccionado = Mostrar_menu(menu)
+buscado = input("Ingresa el nombre a buscar: ")
 
-print("Elegiste la opcion:", seleccionado)
+resultado = Buscar(personas, buscado)
+
+if resultado:
+    print("Encontrado")
+else:
+    print("No encontrado")
